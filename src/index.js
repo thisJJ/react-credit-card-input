@@ -513,7 +513,7 @@ class CreditCardInput extends Component<Props, State> {
                 className: `credit-card-input ${inputClassName}`,
                 pattern: '[0-9]*',
                 placeholder: 'CVC',
-                type: 'text',
+                type: 'password',
                 ...cardCVCInputProps,
                 onBlur: this.handleCardCVCBlur(),
                 onChange: this.handleCardCVCChange(),
